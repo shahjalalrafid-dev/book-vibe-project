@@ -11,9 +11,15 @@ interface IBookDetailsProps {
 }
 
 const getBooks = async () => {
-  const response = await fetch("http://localhost:3000/booksData.json");
-  const data = await response.json();
-  return data;
+  try {
+    const response = await fetch(`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/booksData.json`);
+    const data = await response.json();
+    return data;
+  }catch(error){
+    console.error("Error Fetching Books Data", error);
+    return [];
+  }
+  
 };
 
 const BookDetailsPage = async ({ params }: IBookDetailsProps) => {
@@ -156,9 +162,9 @@ const BookDetailsPage = async ({ params }: IBookDetailsProps) => {
               {/* Actions */}
               <div className="mt-10 flex flex-col sm:flex-row gap-4">
 
-               <ReadButton book = {book}></ReadButton>
+                <ReadButton book={book}></ReadButton>
 
-                <WishButton book = {book} ></WishButton>
+                <WishButton book={book} ></WishButton>
 
               </div>
 
