@@ -26,6 +26,11 @@ const Navbar = () => {
 
                             </li>
                             <li>
+                                <Link href='/read-books'>Read Books</Link>
+
+
+                            </li>
+                            <li>
                                 <a>Parent</a>
                                 <ul className="p-2">
                                     <li><a>Submenu 1</a></li>
@@ -50,6 +55,11 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link href='/listed-books'>Listed Books</Link>
+
+
+                        </li>
+                        <li>
+                            <Link href='/read-books'>Read Books</Link>
 
 
                         </li>
