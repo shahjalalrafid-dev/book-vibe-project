@@ -1,6 +1,6 @@
 'use client'
 
-import BookCard from '@/components/shared/BookCard';
+
 import ListedBooksCard from '@/components/shared/ListedBooksCard';
 import { BooksContext } from '@/context/BooksContext'
 import { Ibook } from '@/types/Books.type';
