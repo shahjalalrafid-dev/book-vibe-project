@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 Book Vibe
 
-## Getting Started
+> A modern, interactive web application designed for book enthusiasts to explore curated collections, read reviews, and manage their personal reading lists and wishlists.
 
-First, run the development server:
+🔗 **[Live Project Link](https://book-vibe-project-1r1cd8i2p-rafid5.vercel.app/)** 
 
+
+## 🚀 Core Features
+* **Comprehensive Book Details:** View detailed information including tags, publisher, release year, and full reviews.
+* **Reading & Wishlist Management:** Easily add books to your "Read" list or "Wishlist". Prevents duplicate entries.
+* **Custom Data Visualization:** Includes a custom bar chart (using Recharts) to visualize the number of pages read for each book.
+* **Smart Sorting:** Sort your saved books dynamically by Rating, Number of Pages, or Publisher Year.
+* **Fully Responsive:** Seamless and highly optimized user interface across desktop, tablet, and mobile devices.
+
+---
+
+## 💻 Main Technologies
+* **FrameWork:** Next.js
+* **Frontend Library:** React.js
+* **Routing:** React Router DOM (v6)
+* **Styling:** Tailwind CSS
+* **UI Components:** DaisyUI
+
+---
+
+## 📦 Dependencies
+The primary dependencies used to build this project include:
+* `Next Js` - Core framework
+* `tailwindcss` - For utility-first CSS styling
+* `daisyui` - For pre-built, accessible Tailwind components
+* `recharts` - For rendering the interactive custom shape bar charts
+* `react-toastify` - For rendering pop up alerts
+
+
+---
+
+## 🛠️ How to Run Locally
+
+Follow these step-by-step instructions to run the project on your local machine:
+
+**1. Clone the repository:**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/shahjalalrafid-dev/book-vibe-project.git]
