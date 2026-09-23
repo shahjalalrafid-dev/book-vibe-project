@@ -2,7 +2,7 @@
 
 > A modern, interactive web application designed for book enthusiasts to explore curated collections, read reviews, and manage their personal reading lists and wishlists.
 
-🔗 **[Live Project Link](https://book-vibe-project-1r1cd8i2p-rafid5.vercel.app/)** 
+🔗 **[Book Vibe Project](https://book-vibe-project-1r1cd8i2p-rafid5.vercel.app/)** 
 
 
 ## 🚀 Core Features
